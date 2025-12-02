@@ -25,7 +25,7 @@ const Viewdetails = () => {
   };
 
   return (
-    <div className="max-w-6xl mx-auto p-6 mt-10 space-y-10 bg-amber-50">
+    <div className="max-w-6xl mx-auto p-6 mt-17 space-y-10 bg-amber-50">
       {/*  Details Section */}
       <div className="flex flex-col md:flex-row items-start gap-8 bg-purple-100 rounded-xl p-6 shadow-lg">
         <img

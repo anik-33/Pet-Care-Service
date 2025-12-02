@@ -62,7 +62,7 @@ const SignUp = () => {
     };
 
     return (
-        <div className="hero bg-green-50 min-h-screen">
+        <div className="hero bg-green-50 min-h-screen mt-4">
             <div className="card bg-green-50 w-full max-w-sm shadow-2xl">
                 <h1 className="text-center p-5 text-2xl font-bold text-purple-700">
                     Register your account now!!

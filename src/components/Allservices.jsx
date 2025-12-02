@@ -5,7 +5,7 @@ const Allservices = () => {
     const data = useLoaderData();
     return (
         <div>
-            <div className=''>
+            <div className='mt-17'>
                 <h1 className='font-semibold text-center  text-4xl mt-6'>All Pet Care Services</h1>
                 <p className='px-6'>Total Services ({data.length})</p>
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3  gap-3 mt-7">{data.map(pet => (

@@ -45,7 +45,7 @@ const router = createBrowserRouter([
     },
     {
       path:'/viewdetails/:id',
-      element:<Privateroute><Viewdetails></Viewdetails></Privateroute>,
+      element:<Viewdetails></Viewdetails>,
       errorElement:<Errorpage></Errorpage>,
       loader: ()=> fetch('/Petcareinfo.json'),
     },
