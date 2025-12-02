@@ -1,0 +1,74 @@
+[
+  {
+    "serviceId": 1,
+    "serviceName": "Winter Coat Fitting for Dogs",
+    "providerName": "PawCare Studio",
+    "providerEmail": "info@pawcare.com",
+    "price": 25,
+    "rating": 4.9,
+    "slotsAvailable": 4,
+    "description": "Custom coat fitting and warm outfit options to keep your dog comfortable in the cold.",
+    "image": "https://i.ibb.co.com/Q3cLV6pd/Poodle-puppy-wearing-a-jacket-in-winter.jpg",
+    "category": "Clothing"
+  },
+  {
+    "serviceId": 2,
+    "serviceName": "Winter Grooming & Paw Treatment",
+    "providerName": "CozyPets Grooming",
+    "providerEmail": "hello@cozypets.com",
+    "price": 30,
+    "rating": 4.8,
+    "slotsAvailable": 3,
+    "description": "Professional grooming with moisturizing paw balm and winter-safe shampoo.",
+    "image": "https://i.ibb.co.com/JwsDj4Nc/sps-dog-hair-clippers-test-ruris-cordless-ana-calderone-04-bd274db0ed1d4f17abcbe0f30fb911f7.jpg",
+    "category": "Grooming"
+  },
+  {
+    "serviceId": 3,
+    "serviceName": "Heated Bed Setup for Cats",
+    "providerName": "WarmWhiskers",
+    "providerEmail": "contact@warmwhiskers.com",
+    "price": 40,
+    "rating": 4.7,
+    "slotsAvailable": 5,
+    "description": "Provide your cat a cozy heated bed installation with temperature control for chilly nights.",
+    "image": "https://i.ibb.co.com/3ywkFb5Z/71mp7-W2-XTz-L-UF1000-1000-QL80.jpg",
+    "category": "Comfort"
+  },
+  {
+    "serviceId": 4,
+    "serviceName": "Winter Nutrition Consultation",
+    "providerName": "PetHealth Pro",
+    "providerEmail": "support@pethealthpro.com",
+    "price": 35,
+    "rating": 4.9,
+    "slotsAvailable": 6,
+    "description": "Expert advice on adjusting your pet’s diet for optimal health and warmth during the cold season.",
+    "image": "https://i.ibb.co.com/fG1Ft3SC/81-RLC4-GQfw-L-AC-SL1500.jpg",
+    "category": "Nutrition"
+  },
+  {
+    "serviceId": 5,
+    "serviceName": "Cold-Weather Walk Service",
+    "providerName": "SnowPaws Walkers",
+    "providerEmail": "walks@snowpaws.com",
+    "price": 20,
+    "rating": 4.6,
+    "slotsAvailable": 8,
+    "description": "Safe and short outdoor walks with protective gear and warm-up breaks for your dog.",
+    "image": "https://i.ibb.co.com/5Vv2rHz/66e5aff615bf19-52410677.webp",
+    "category": "Exercise"
+  },
+  {
+    "serviceId": 6,
+    "serviceName": "Pet Cabin Heating & Safety Check",
+    "providerName": "FurHaven Services",
+    "providerEmail": "care@furhaven.com",
+    "price": 50,
+    "rating": 5.0,
+    "slotsAvailable": 2,
+    "description": "Inspection and installation of safe heating options in outdoor pet cabins or kennels.",
+    "image": "https://i.ibb.co.com/RpRphQdk/feeding-dogs.jpg",
+    "category": "Home Care"
+  }
+]

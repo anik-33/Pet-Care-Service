@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "name": "Dr. Emily Harper",
+    "image": "https://i.ibb.co.com/bMFqjGkk/11803321281649319361.jpg",
+    "specialization": "Winter Coat & Clothing Specialist",
+    "bio": "Dr. Harper has over 10 years of experience designing and fitting custom winter clothing for dogs and cats. She ensures every pet stays warm and stylish during the cold months."
+  },
+  {
+    "id": 2,
+    "name": "Liam Chen",
+    "image": "https://i.ibb.co.com/yF2mmpBt/16731963431706624854.png",
+    "specialization": "Grooming & Paw Care Expert",
+    "bio": "Liam specializes in seasonal grooming techniques and paw protection treatments to prevent dryness and cracking during harsh winters."
+  },
+  {
+    "id": 3,
+    "name": "Sofia Martinez",
+    "image": "https://i.ibb.co.com/R4CRVV8J/banner2.jpg",
+    "specialization": "Pet Comfort & Bedding Designer",
+    "bio": "Sofia designs heated and orthopedic pet beds that maintain the perfect temperature balance for cats and small dogs throughout winter."
+  },
+  {
+    "id": 4,
+    "name": "Dr. Rajiv Malhotra",
+    "image": "https://i.ibb.co.com/kF0j130/Hero-image-mobile-consultation.webp",
+    "specialization": "Pet Nutrition Consultant",
+    "bio": "A certified pet nutritionist focused on developing winter diet plans that enhance immunity, coat health, and overall warmth in pets."
+  },
+  {
+    "id": 5,
+    "name": "Ava Thompson",
+    "image": "https://i.ibb.co.com/JwsDj4Nc/sps-dog-hair-clippers-test-ruris-cordless-ana-calderone-04-bd274db0ed1d4f17abcbe0f30fb911f7.jpg",
+    "specialization": "Cold-Weather Dog Walker",
+    "bio": "Ava has years of experience handling winter walks safely, ensuring pets stay active with proper winter gear and short outdoor sessions."
+  },
+  {
+    "id": 6,
+    "name": "Noah Bennett",
+    "image": "https://i.ibb.co.com/9kCjGhnp/65263b029abac1b20ca2d33d-Banner-Img.webp",
+    "specialization": "Pet Cabin & Heating Specialist",
+    "bio": "Noah provides professional installation and inspection of heated pet cabins, ensuring your furry friends stay cozy and safe all winter long."
+  },
+   {
+    "id": 7,
+    "name": "Dr. Emily Harper",
+    "image": "https://i.ibb.co.com/bMFqjGkk/11803321281649319361.jpg",
+    "specialization": "Winter Coat & Clothing Specialist",
+    "bio": "Dr. Harper has over 10 years of experience designing and fitting custom winter clothing for dogs and cats. She ensures every pet stays warm and stylish during the cold months."
+  },
+  {
+    "id": 4,
+    "name": "Dr. Rajiv Malhotra",
+    "image": "https://i.ibb.co.com/kF0j130/Hero-image-mobile-consultation.webp",
+    "specialization": "Pet Nutrition Consultant",
+    "bio": "A certified pet nutritionist focused on developing winter diet plans that enhance immunity, coat health, and overall warmth in pets."
+  }
+]
