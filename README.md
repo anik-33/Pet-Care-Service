@@ -1,7 +1,7 @@
 # 🌐 Pet Care Service
 
 **Project Name:** Pet Care 
-**Purpose:** An interactive platform where users can buy pet care services.
+**Purpose:** An interactive platform where users can take pet care services.
 
 A modern, responsive, and user-friendly **React + Firebase** web application with smooth animations, secure authentication, and an engaging UI.
 
