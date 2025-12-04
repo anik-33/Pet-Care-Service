@@ -6,7 +6,7 @@ import Footer from '../Pages/Footer';
 
 const Authlayout = () => {
     return (
-        <div>
+        <div className='max-w-11/12 mx-auto'>
            <header>
             <Navber></Navber>
            </header>

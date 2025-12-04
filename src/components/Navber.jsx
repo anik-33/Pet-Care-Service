@@ -28,7 +28,7 @@ const Navber = () => {
     </>
 
     return (
-        <div className="navbar fixed top-0 left-0 w-full bg-transparent backdrop-blur-md p-3 shadow-sm z-50">
+        <div className=" max-w-11/12 mx-auto navbar fixed top-0  w-full bg-transparent backdrop-blur-md p-3 shadow-sm z-50">
             <div><Toaster/></div>
             <div className="navbar-start">
                 <div className="dropdown">

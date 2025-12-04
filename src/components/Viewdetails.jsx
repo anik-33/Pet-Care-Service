@@ -19,74 +19,132 @@ const Viewdetails = () => {
   };
 
   const handleSubmit = (e) => {
-    e.preventDefault(); // Prevent page reload
+    e.preventDefault();
     toast.success("You successfully submitted the form!");
-    setFormData({ name: '', email: '' }); // Clear form
+    setFormData({ name: '', email: '' });
   };
 
   return (
-    <div className="max-w-6xl mx-auto p-6 mt-17 space-y-10 bg-amber-50">
-      {/*  Details Section */}
-      <div className="flex flex-col md:flex-row items-start gap-8 bg-purple-100 rounded-xl p-6 shadow-lg">
+    <div className="max-w-11/12 mx-auto p-6 mt-17 space-y-12">
+
+      {/* ✅ Main Details Section */}
+      <div className="flex flex-col md:flex-row gap-8 bg-purple-100 rounded-xl p-6 shadow-lg">
         <img
           src={singleData.image}
           alt={singleData.serviceName}
-          className="w-full md:w-1/2 h-80 md:h-auto object-cover rounded-lg"
+          className="w-full md:w-1/2 h-80 object-cover rounded-lg"
         />
-        <div className="flex-1 flex flex-col justify-between">
-          <div>
-            <h1 className="text-4xl md:text-5xl font-bold text-purple-700 mb-4">
-              {singleData.serviceName}
-            </h1>
-            <p className="text-gray-700 leading-relaxed mb-6 whitespace-pre-line">
-              {singleData.description}
-            </p>
-          </div>
-          <div className="space-y-3 text-gray-800">
-            <p><span className="font-semibold">Category:</span> {singleData.category}</p>
-            <p><span className="font-semibold">Price:</span> ${singleData.price}</p>
-            <p><span className="font-semibold">Rating:</span> ⭐ {singleData.rating}</p>
-            <p><span className="font-semibold">Available Slot:</span> {singleData.slotsAvailable}</p>
+        <div className="flex-1">
+          <h1 className="text-4xl font-bold text-purple-700 mb-4">
+            {singleData.serviceName}
+          </h1>
+
+          <p className="text-gray-700 mb-6 whitespace-pre-line">
+            {singleData.description}
+          </p>
+
+          <div className="grid grid-cols-2 gap-4 text-gray-800">
+            <p><strong>Category:</strong> {singleData.category}</p>
+            <p><strong>Price:</strong> ${singleData.price}</p>
+            <p><strong>Rating:</strong> ⭐ {singleData.rating}</p>
+            <p><strong>Slots:</strong> {singleData.slotsAvailable}</p>
           </div>
         </div>
       </div>
 
-      {/* Book a service Form */}
+      {/* ✅ Service Highlights */}
+      <div className="bg-white p-6 rounded-xl shadow">
+        <h2 className="text-2xl font-bold text-purple-600 mb-4">Service Highlights</h2>
+        <ul className="grid md:grid-cols-2 gap-3 list-disc pl-6 text-gray-700">
+          <li>Certified professionals</li>
+          <li>100% Pet-safe handling</li>
+          <li>Emergency support available</li>
+          <li>Affordable & transparent pricing</li>
+        </ul>
+      </div>
+
+      {/* ✅ What's Included */}
+      <div className="bg-purple-50 p-6 rounded-xl shadow">
+        <h2 className="text-2xl font-bold text-purple-600 mb-4">What's Included</h2>
+        <ul className="space-y-2 text-gray-700">
+          <li>✔ Full health check</li>
+          <li>✔ Grooming & cleaning</li>
+          <li>✔ Nutrition guidance</li>
+          <li>✔ After-service follow-up</li>
+        </ul>
+      </div>
+
+      {/* ✅ Provider Information */}
+      <div className="bg-white p-6 rounded-xl shadow">
+        <h2 className="text-2xl font-bold text-purple-600 mb-4">Service Provider</h2>
+        <div className="flex items-center gap-4">
+          <img
+            src="https://i.ibb.co/Y7hZ4Nt/doctor.png"
+            className="w-16 h-16 rounded-full object-cover"
+            alt="provider"
+          />
+          <div>
+            <h3 className="font-semibold text-lg">Dr. Sarah Ahmed</h3>
+            <p className="text-sm text-gray-600">Certified Pet Specialist - 8+ Years Experience</p>
+          </div>
+        </div>
+      </div>
+
+      {/* ✅ Customer Reviews */}
+      <div className="bg-purple-100 p-6 rounded-xl shadow">
+        <h2 className="text-2xl font-bold text-purple-600 mb-4">Customer Reviews</h2>
+        <div className="space-y-4">
+          <div className="bg-white p-4 rounded shadow">
+            ⭐⭐⭐⭐⭐ <br />
+            "Amazing service! My cat loved it." – <strong>Rahim</strong>
+          </div>
+          <div className="bg-white p-4 rounded shadow">
+            ⭐⭐⭐⭐☆ <br />
+            "Professional and friendly staff!" – <strong>Nusrat</strong>
+          </div>
+        </div>
+      </div>
+
+      {/* ✅ FAQ Section */}
+      <div className="bg-white p-6 rounded-xl shadow">
+        <h2 className="text-2xl font-bold text-purple-600 mb-4">Frequently Asked Questions</h2>
+        <div className="space-y-3 text-gray-700">
+          <p><strong>Q:</strong> Is home service available?<br />✅ Yes, within city limits.</p>
+          <p><strong>Q:</strong> Is this safe for kittens?<br />✅ 100% safe and vet-approved.</p>
+        </div>
+      </div>
+
+      {/* ✅ Booking Form */}
       <div className="bg-base-200 rounded-xl p-6 shadow-md max-w-md mx-auto">
         <h2 className="text-2xl font-bold mb-6 text-center text-purple-500">
           Book Consultation
         </h2>
+
         <form onSubmit={handleSubmit}>
           <div className="flex flex-col gap-4">
-            <div className="flex flex-col">
-              <label className="label font-semibold">Name</label>
-              <input
-                type="text"
-                name="name"
-                value={formData.name}
-                onChange={handleChange}
-                placeholder="Name"
-                className="input input-bordered w-full"
-                required
-              />
-            </div>
+            <input
+              type="text"
+              name="name"
+              value={formData.name}
+              onChange={handleChange}
+              placeholder="Your Name"
+              className="input input-bordered w-full"
+              required
+            />
 
-            <div className="flex flex-col">
-              <label className="label font-semibold">Email</label>
-              <input
-                type="email"
-                name="email"
-                value={formData.email}
-                onChange={handleChange}
-                placeholder="Email"
-                className="input input-bordered w-full"
-                required
-              />
-            </div>
+            <input
+              type="email"
+              name="email"
+              value={formData.email}
+              onChange={handleChange}
+              placeholder="Your Email"
+              className="input input-bordered w-full"
+              required
+            />
 
             <button
               type="submit"
-              className="btn btn-green text-white w-full mt-4 bg-purple-400 hover:bg-purple-800 transition duration-300"
+              className="btn btn-green text-white w-full mt-4 bg-purple-400 hover:bg-purple-800"
             >
               Book Now
             </button>
@@ -94,7 +152,7 @@ const Viewdetails = () => {
         </form>
       </div>
 
-      {/* ToastContainer */}
+      {/* ✅ Toast Message */}
       <ToastContainer position="top-center" autoClose={2000} />
     </div>
   );
